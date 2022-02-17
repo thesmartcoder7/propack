@@ -75,7 +75,7 @@ header {
     width: 100%;
     height: auto;
     text-align: center;
-    padding: 5% 0;
+    padding: 5% 0 0 0;
 
     h3 {
         font-size: 3vw;
@@ -99,6 +99,7 @@ header {
 
         img {
             margin: 0 1%;
+            width: 20vw;
         }
 
         svg {
@@ -121,4 +122,89 @@ header {
             color: brown;
         }
     }
+
+    .text {
+        padding: 2% 10% 7% 10%;
+        p {
+            font-size: 1.3vw;
+            line-height: 2vw;
+            margin: 1% 0;
+        }
+    }
+
+    .crips {
+        width: 100%;
+        height: 40vh;
+        background-image: url("images/p1_3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+#divisions {
+    padding: 5% 10%;
+    background-color: rgb(230, 219, 219);
+
+    .snack-factory,
+    .tissue-factory {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            width: 40%;
+            text-align: left;
+            justify-content: center;
+            img {
+                width: 80%;
+            }
+        }
+
+        .right {
+            width: 60%;
+
+            p {
+                font-size: 1.4vw;
+                margin: 2%;
+                line-height: 2.5vw;
+            }
+        }
+    }
+
+    .snack-product-list {
+        padding: 5% 0;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+
+            li {
+                display: flex;
+                width: 22%;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(49, 6, 6);
+
+                padding: 2% 3.5%;
+                font-size: 0.9vw;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                span {
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+}
+
+.tissue {
+    width: 100%;
+    height: 40vh;
+    background-image: url("images/janelle-hiroshige-LGH0uoLt26k-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
 }

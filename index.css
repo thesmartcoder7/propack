@@ -93,7 +93,7 @@ header .navlinks ul li svg {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 5% 0;
+  padding: 5% 0 0 0;
 }
 
 #brands h3 {
@@ -125,6 +125,7 @@ header .navlinks ul li svg {
 
 #brands .slider img {
   margin: 0 1%;
+  width: 20vw;
 }
 
 #brands .slider svg {
@@ -151,5 +152,116 @@ header .navlinks ul li svg {
   height: 0.7vw;
   margin: 0 0.5%;
   color: brown;
+}
+
+#brands .text {
+  padding: 2% 10% 7% 10%;
+}
+
+#brands .text p {
+  font-size: 1.3vw;
+  line-height: 2vw;
+  margin: 1% 0;
+}
+
+#brands .crips {
+  width: 100%;
+  height: 40vh;
+  background-image: url("images/p1_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divisions {
+  padding: 5% 10%;
+  background-color: #e6dbdb;
+}
+
+#divisions .snack-factory,
+#divisions .tissue-factory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#divisions .snack-factory .left,
+#divisions .tissue-factory .left {
+  width: 40%;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#divisions .snack-factory .left img,
+#divisions .tissue-factory .left img {
+  width: 80%;
+}
+
+#divisions .snack-factory .right,
+#divisions .tissue-factory .right {
+  width: 60%;
+}
+
+#divisions .snack-factory .right p,
+#divisions .tissue-factory .right p {
+  font-size: 1.4vw;
+  margin: 2%;
+  line-height: 2.5vw;
+}
+
+#divisions .snack-product-list {
+  padding: 5% 0;
+}
+
+#divisions .snack-product-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+#divisions .snack-product-list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 22%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #310606;
+  padding: 2% 3.5%;
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#divisions .snack-product-list ul li span {
+  font-size: 1.5vw;
+}
+
+.tissue {
+  width: 100%;
+  height: 40vh;
+  background-image: url("images/janelle-hiroshige-LGH0uoLt26k-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 30%;
 }
 /*# sourceMappingURL=index.css.map */
