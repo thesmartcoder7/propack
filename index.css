@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 3% 0;
+  width: 100%;
+  height: auto;
+}
+
+header h1 {
+  color: red;
+  font-size: 5vw;
+}
+
+header h2 {
+  font-size: 3.5vw;
+  letter-spacing: 0.2vw;
+}
+
+header .navlinks {
+  padding: 2% 0;
+  width: 100%;
+  text-align: center;
+}
+
+header .navlinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .navlinks ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1%;
+}
+
+header .navlinks ul li svg {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+#hero {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("images/pexels-kenex-media-sa-3177662.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 20%;
+  padding: 27% 0;
+}
+
+#hero h3 {
+  color: #fff;
+  font-size: 3vw;
+  letter-spacing: 0.5vw;
+}
+/*# sourceMappingURL=index.css.map */
