@@ -44,7 +44,7 @@ header .navlinks ul {
           justify-content: center;
   text-decoration: none;
   list-style: none;
-  color: #310606;
+  color: #4d2f2f;
 }
 
 header .navlinks ul li {
@@ -98,7 +98,7 @@ header .navlinks ul li svg {
 
 #brands h3 {
   font-size: 3vw;
-  color: #310606;
+  color: #4d2f2f;
   text-align: center;
 }
 
@@ -108,6 +108,8 @@ header .navlinks ul li svg {
   margin-top: 0.5%;
   width: 20%;
   background-color: brown;
+  outline: none;
+  border: none;
 }
 
 #brands .slider {
@@ -131,7 +133,7 @@ header .navlinks ul li svg {
 #brands .slider svg {
   width: 7vw;
   height: 7vw;
-  color: #976f3b;
+  color: #b08668;
 }
 
 #brands .dots {
@@ -244,7 +246,7 @@ header .navlinks ul li svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #310606;
+  background-color: #4d2f2f;
   padding: 2% 3.5%;
   font-size: 0.9vw;
   font-weight: 600;
@@ -285,7 +287,7 @@ header .navlinks ul li svg {
 
 #private-label h3 {
   font-size: 3vw;
-  color: #310606;
+  color: #4d2f2f;
   text-align: center;
 }
 
@@ -295,6 +297,8 @@ header .navlinks ul li svg {
   margin-top: 0.7%;
   width: 30%;
   background-color: brown;
+  outline: none;
+  border: none;
 }
 
 #private-label p {
@@ -324,13 +328,13 @@ header .navlinks ul li svg {
 #private-label .slider svg {
   width: 7vw;
   height: 7vw;
-  color: #976f3b;
+  color: #b08668;
 }
 
 #private-label .accordion {
   width: 70%;
   padding: 1% 5%;
-  background-color: #310606;
+  background-color: #4d2f2f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,5 +383,161 @@ header .navlinks ul li svg {
 #private-label .about h3 {
   color: #000;
   font-size: 1.7vw;
+}
+
+#contact {
+  padding: 5%;
+  background-color: #8c6c5e;
+}
+
+#contact h3 {
+  font-size: 3vw;
+  color: #fff;
+  text-align: center;
+}
+
+#contact hr {
+  margin: 0 auto;
+  height: 0.2vw;
+  margin-top: 0.7%;
+  width: 20%;
+  background-color: #b38968;
+  outline: none;
+  border: none;
+}
+
+#contact .map-details {
+  padding: 5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact .map-details .left {
+  width: 50%;
+  height: auto;
+  background-image: url("images/p1_8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact .map-details .right {
+  width: 50%;
+}
+
+#contact .map-details .right .row {
+  margin-bottom: 3%;
+  padding-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#contact .map-details .right .row h3 {
+  font-size: 1.5vw;
+  margin-bottom: 1%;
+}
+
+#contact .map-details .right .row p {
+  color: #fff;
+  font-size: 1.2vw;
+  line-height: 1.7vw;
+}
+
+#contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#contact form .name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1% 0;
+}
+
+#contact form .name-email label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  margin: 0 1%;
+}
+
+#contact form .name-email label span {
+  color: #fff;
+  padding: 2% 0;
+  font-size: 1vw;
+}
+
+#contact form .name-email label input {
+  background-color: #775b52;
+  outline: none;
+  border: solid #fff 0.1vw;
+  padding: 3%;
+  color: #fff;
+  font-size: 0.9vw;
+}
+
+#contact form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 98%;
+  margin: 0 1%;
+}
+
+#contact form label span {
+  color: #fff;
+  padding: 1% 0;
+  font-size: 1vw;
+}
+
+#contact form label textarea {
+  background-color: #775b52;
+  outline: none;
+  border: solid #fff 0.1vw;
+  padding: 1%;
+  color: #fff;
+  font-size: 0.9vw;
+}
+
+#contact form input[type="submit"] {
+  width: 20%;
+  margin: 3% auto;
+  font-size: 1.2vw;
+  color: #775b52;
+  padding: 1.5% 3%;
 }
 /*# sourceMappingURL=index.css.map */
