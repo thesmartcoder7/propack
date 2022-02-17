@@ -22,6 +22,10 @@ header h2 {
   letter-spacing: 0.2vw;
 }
 
+header h3 {
+  font-size: 0.9vw;
+}
+
 header .navlinks {
   padding: 2% 0;
   width: 100%;
@@ -40,6 +44,7 @@ header .navlinks ul {
           justify-content: center;
   text-decoration: none;
   list-style: none;
+  color: #310606;
 }
 
 header .navlinks ul li {
@@ -50,11 +55,13 @@ header .navlinks ul li {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 1%;
+  font-size: 1.1vw;
 }
 
 header .navlinks ul li svg {
-  width: 1.5vw;
-  height: 1.5vw;
+  width: 2vw;
+  height: 2vw;
+  color: brown;
 }
 
 #hero {
@@ -80,5 +87,69 @@ header .navlinks ul li svg {
   color: #fff;
   font-size: 3vw;
   letter-spacing: 0.5vw;
+}
+
+#brands {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 5% 0;
+}
+
+#brands h3 {
+  font-size: 3vw;
+  color: #310606;
+  text-align: center;
+}
+
+#brands hr {
+  margin: 0 auto;
+  height: 0.2vw;
+  margin-top: 0.5%;
+  width: 20%;
+  background-color: brown;
+}
+
+#brands .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0;
+}
+
+#brands .slider img {
+  margin: 0 1%;
+}
+
+#brands .slider svg {
+  width: 7vw;
+  height: 7vw;
+  color: #976f3b;
+}
+
+#brands .dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5%;
+}
+
+#brands .dots svg {
+  width: 0.7vw;
+  height: 0.7vw;
+  margin: 0 0.5%;
+  color: brown;
 }
 /*# sourceMappingURL=index.css.map */

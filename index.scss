@@ -21,6 +21,10 @@ header {
         letter-spacing: 0.2vw;
     }
 
+    h3 {
+        font-size: 0.9vw;
+    }
+
     .navlinks {
         padding: 2% 0;
         width: 100%;
@@ -31,13 +35,16 @@ header {
             justify-content: center;
             text-decoration: none;
             list-style: none;
+            color: rgb(49, 6, 6);
             li {
                 display: flex;
                 align-items: center;
                 margin: 0 1%;
+                font-size: 1.1vw;
                 svg {
-                    width: 1.5vw;
-                    height: 1.5vw;
+                    width: 2vw;
+                    height: 2vw;
+                    color: brown;
                 }
             }
         }
@@ -60,5 +67,58 @@ header {
         color: #fff;
         font-size: 3vw;
         letter-spacing: 0.5vw;
+    }
+}
+
+// brands section styling
+#brands {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5% 0;
+
+    h3 {
+        font-size: 3vw;
+        color: rgb(49, 6, 6);
+        text-align: center;
+    }
+
+    hr {
+        margin: 0 auto;
+        height: 0.2vw;
+        margin-top: 0.5%;
+        width: 20%;
+        background-color: brown;
+    }
+
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 0;
+
+        img {
+            margin: 0 1%;
+        }
+
+        svg {
+            width: 7vw;
+            height: 7vw;
+            color: rgb(151, 111, 59);
+        }
+    }
+
+    .dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5%;
+
+        svg {
+            width: 0.7vw;
+            height: 0.7vw;
+            margin: 0 0.5%;
+            color: brown;
+        }
     }
 }
