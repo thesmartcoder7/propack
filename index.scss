@@ -141,6 +141,7 @@ header {
     }
 }
 
+// division section styling
 #divisions {
     padding: 5% 10%;
     background-color: rgb(230, 219, 219);
@@ -207,4 +208,89 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 30%;
+}
+
+// private label styling
+#private-label {
+    padding: 5% 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+        font-size: 3vw;
+        color: rgb(49, 6, 6);
+        text-align: center;
+    }
+    hr {
+        margin: 0 auto;
+        height: 0.2vw;
+        margin-top: 0.7%;
+        width: 30%;
+        background-color: brown;
+    }
+
+    p {
+        font-size: 1.2vw;
+        margin: 2%;
+        line-height: 2.2vw;
+    }
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 0;
+
+        img {
+            margin: 0 1%;
+            width: 70%;
+        }
+
+        svg {
+            width: 7vw;
+            height: 7vw;
+            color: rgb(151, 111, 59);
+        }
+    }
+
+    .accordion {
+        width: 70%;
+        padding: 1% 5%;
+        background-color: rgb(49, 6, 6);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+        p {
+            color: #fff;
+        }
+        span {
+            color: #fff;
+            font-size: 2vw;
+        }
+    }
+
+    .dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 0;
+
+        svg {
+            width: 2vw;
+            height: 2vw;
+            margin: 0 5%;
+            color: brown;
+        }
+    }
+
+    .about {
+        padding: 5%;
+
+        h3 {
+            color: #000;
+            font-size: 1.7vw;
+        }
+    }
 }

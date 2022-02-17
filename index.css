@@ -264,4 +264,120 @@ header .navlinks ul li svg {
   background-size: cover;
   background-position-y: 30%;
 }
+
+#private-label {
+  padding: 5% 10%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#private-label h3 {
+  font-size: 3vw;
+  color: #310606;
+  text-align: center;
+}
+
+#private-label hr {
+  margin: 0 auto;
+  height: 0.2vw;
+  margin-top: 0.7%;
+  width: 30%;
+  background-color: brown;
+}
+
+#private-label p {
+  font-size: 1.2vw;
+  margin: 2%;
+  line-height: 2.2vw;
+}
+
+#private-label .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0;
+}
+
+#private-label .slider img {
+  margin: 0 1%;
+  width: 70%;
+}
+
+#private-label .slider svg {
+  width: 7vw;
+  height: 7vw;
+  color: #976f3b;
+}
+
+#private-label .accordion {
+  width: 70%;
+  padding: 1% 5%;
+  background-color: #310606;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+}
+
+#private-label .accordion p {
+  color: #fff;
+}
+
+#private-label .accordion span {
+  color: #fff;
+  font-size: 2vw;
+}
+
+#private-label .dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5% 0;
+}
+
+#private-label .dots svg {
+  width: 2vw;
+  height: 2vw;
+  margin: 0 5%;
+  color: brown;
+}
+
+#private-label .about {
+  padding: 5%;
+}
+
+#private-label .about h3 {
+  color: #000;
+  font-size: 1.7vw;
+}
 /*# sourceMappingURL=index.css.map */
